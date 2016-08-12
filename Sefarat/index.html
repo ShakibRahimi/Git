@@ -1,27 +1,30 @@
+
+
+
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
-	<!-- base href="https://service2.diplo.de/rktermin/" -->
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=10; IE=11">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<base href="https://service2.diplo.de/rktermin/" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=10; IE=11" />
 	<title>
-		RK-Termin
+		RK-Termin - Kategorie
 	</title>	
-	<link rel="stylesheet" type="text/css" href="3_files/reset.css">	
-	<link rel="stylesheet" type="text/css" media="screen" href="3_files/screen.css">	
-	<link rel="stylesheet" type="text/css" media="print" href="3_files/print.css">	
-	<link rel="stylesheet" type="text/css" media="screen" href="3_files/rktermin.css">
+	<link rel="stylesheet" type="text/css" href="style_css/reset.css" />	
+	<link rel="stylesheet" type="text/css" media="screen" href="style_css/screen.css" />	
+	<link rel="stylesheet" type="text/css" media="print" href="style_css/print.css" />	
+	<link rel="stylesheet" type="text/css" media="screen" href="style_css/rktermin.css" />
 	
 	<!--[if gte IE 7]><link rel="stylesheet" type="text/css" media="screen" href="style_css/ie7.css" /><![endif]-->	
 	<!--[if gte IE 6]><link rel="stylesheet" type="text/css" media="screen" href="style_css/ie6.css" /><![endif]-->	
 	<!--[if lte IE 5.5000]><link rel="stylesheet" type="text/css" media="screen" href="style_css/ie5.css" /><![endif]-->	
 
 
-	<link rel="stylesheet" type="text/css" href="3_files/jquery-ui-1.css">
-	<script type="text/javascript" src="3_files/jquery-1.js"></script> 
-	<script type="text/javascript" src="3_files/jquery-ui-1.js"></script> 
-	
-		<script type="text/javascript" src="3_files/jquery-ui-timepicker-de.js"></script>
-		<script type="text/javascript" src="3_files/jquery.js"></script> 
+	<link rel="stylesheet" type="text/css" href="css/redmond/jquery-ui-1.8.14.custom.css" />
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script> 
+	<script type="text/javascript" src="js/jquery-ui-1.8.14.custom.min.js"></script> 
 		
 </head>
 <body>
@@ -30,7 +33,7 @@
 	<div id="header">
 	
 		<div id="logo">
-			<img src="3_files/auswaertiges-amt-logo-220x120.gif" alt="Auswärtiges Amt">
+			<img src="style_images/auswaertiges-amt-logo-220x120.gif" alt="Auswärtiges Amt" />
 		</div>
 		<div id="logo-app" style="background-image:  url('images/auswaertigesamt.gif'); min-height: 54px; width: 78%;">
 			&nbsp;
@@ -53,181 +56,59 @@
 			<div class="wrapper">	
 			
 <div style="font-size: 14pt; font-weight: bold; margin-bottom: 1em;">
-Visa
+
 </div>
 
 
 
-<fieldset><legend>Neuer Termin</legend>
 
 
-	<div style="font-size: 120%; float: left; width: 20%;">
-		Datum / Uhrzeit:
-	</div>
-	<div style="font-weight: bold;">
-		06.09.2016
-		08:45 
-		—
-		09:00
-	</div><br style="clear: both;">
-	<div style="font-size: 120%; float: left; width: 20%;">
-		Ort:
-	</div>
-	<div style="font-weight: bold;">
-		Duschanbe
-	</div><br style="clear: both;">
 
         
-<form id="appointment_newAppointmentForm" name="appointment_newAppointmentForm" onsubmit="startCommitRequest();" action="/rktermin/extern/appointment_showForm.do" method="post" class="top">
-<div id="wwgrp_appointment_newAppointmentForm_lastname" class="input text s">
-<div id="wwlbl_appointment_newAppointmentForm_lastname" class="wwlbl">
-<label for="appointment_newAppointmentForm_lastname" class="label">        Nachname:
-</label></div> 
-<div id="wwctrl_appointment_newAppointmentForm_lastname">
-<input name="lastname" id="appointment_newAppointmentForm_lastname" class="input text s" type="text"></div> </div>
+<form id="appointment_captcha_day" name="appointment_captcha_day" onsubmit="startCommitRequest();" action="/rktermin/extern/appointment_showForm.do" method="post" class="top">
 
-<div id="wwgrp_appointment_newAppointmentForm_firstname" class="input text s">
-<div id="wwlbl_appointment_newAppointmentForm_firstname" class="wwlbl">
-<label for="appointment_newAppointmentForm_firstname" class="label">        Vorname:
-</label></div> 
-<div id="wwctrl_appointment_newAppointmentForm_firstname">
-<input name="firstname" id="appointment_newAppointmentForm_firstname" class="input text s" type="text"></div> </div>
-
-<div id="wwgrp_appointment_newAppointmentForm_email" class="input text s">
-<div id="wwlbl_appointment_newAppointmentForm_email" class="wwlbl">
-<label for="appointment_newAppointmentForm_email" class="label">        E-Mail:
-</label></div> 
-<div id="wwctrl_appointment_newAppointmentForm_email">
-<input name="email" id="appointment_newAppointmentForm_email" class="input text s" type="text"></div> </div>
-
-<div id="wwgrp_appointment_newAppointmentForm_emailrepeat" class="input text s">
-<div id="wwlbl_appointment_newAppointmentForm_emailrepeat" class="wwlbl">
-<label for="appointment_newAppointmentForm_emailrepeat" class="label">        E-Mail wiederholen:
-</label></div> 
-<div id="wwctrl_appointment_newAppointmentForm_emailrepeat">
-<input name="emailrepeat" id="appointment_newAppointmentForm_emailrepeat" class="input text s" type="text"></div> </div>
-
-
-
-	
-		
-		
-			<div id="wwgrp_appointment_newAppointmentForm_fields_0__content" class="input text l">
-<div id="wwlbl_appointment_newAppointmentForm_fields_0__content" class="wwlbl">
-<label for="appointment_newAppointmentForm_fields_0__content" class="label"><span class="required">*</span>        Geburtsdatum/Дата рождения:
-</label></div> 
-<div id="wwctrl_appointment_newAppointmentForm_fields_0__content">
-<input name="fields[0].content" id="appointment_newAppointmentForm_fields_0__content" class="input text l" type="text"></div> </div>
-
-		
-
-		<input name="fields[0].definitionId" value="1503" id="appointment_newAppointmentForm_fields_0__definitionId" type="hidden">
-		<input name="fields[0].index" value="0" id="appointment_newAppointmentForm_fields_0__index" type="hidden">
-	
-	
-	
-	
-
-	
-		
-		
-			<div id="wwgrp_appointment_newAppointmentForm_fields_1__content" class="input text l">
-<div id="wwlbl_appointment_newAppointmentForm_fields_1__content" class="wwlbl">
-<label for="appointment_newAppointmentForm_fields_1__content" class="label"><span class="required">*</span>        Passnummer/Номер паспорта:
-</label></div> 
-<div id="wwctrl_appointment_newAppointmentForm_fields_1__content">
-<input name="fields[1].content" id="appointment_newAppointmentForm_fields_1__content" class="input text l" type="text"></div> </div>
-
-		
-
-		<input name="fields[1].definitionId" value="1504" id="appointment_newAppointmentForm_fields_1__definitionId" type="hidden">
-		<input name="fields[1].index" value="1" id="appointment_newAppointmentForm_fields_1__index" type="hidden">
-	
-	
-	
-	
-
-	
-	
-	
-	
-		
-		
-			<div id="wwgrp_appointment_newAppointmentForm_fields_2__content" class="input select l">
-<div id="wwlbl_appointment_newAppointmentForm_fields_2__content" class="wwlbl">
-<label for="appointment_newAppointmentForm_fields_2__content" class="label"><span class="required">*</span>        Reisezweck/Цель поездки:
-</label></div> 
-<div id="wwctrl_appointment_newAppointmentForm_fields_2__content">
-<select name="fields[2].content" id="appointment_newAppointmentForm_fields_2__content" class="input select l">
-    <option selected="selected" value="Besuchsreise/Гостевая поездка">Besuchsreise/Гостевая поездка</option>
-    <option value="Tourismus/Туризм">Tourismus/Туризм</option>
-    <option value="Geschäftsreise/Деловая поездка">Geschäftsreise/Деловая поездка</option>
-    <option value="Medizinische Behandlung/Лечение">Medizinische Behandlung/Лечение</option>
-    <option value="Sonstiger/Иное">Sonstiger/Иное</option>
-
-
-</select>
-</div> </div>
-		
-		<input name="fields[2].definitionId" value="1505" id="appointment_newAppointmentForm_fields_2__definitionId" type="hidden">
-		<input name="fields[2].index" value="2" id="appointment_newAppointmentForm_fields_2__index" type="hidden">
-	
-
-	
-		
-		
-			<div id="wwgrp_appointment_newAppointmentForm_fields_3__content" class="input text l">
-<div id="wwlbl_appointment_newAppointmentForm_fields_3__content" class="wwlbl">
-<label for="appointment_newAppointmentForm_fields_3__content" class="label">        Telefonnummer/Номер телефона:
-</label></div> 
-<div id="wwctrl_appointment_newAppointmentForm_fields_3__content">
-<input name="fields[3].content" id="appointment_newAppointmentForm_fields_3__content" class="input text l" type="text"></div> </div>
-
-		
-
-		<input name="fields[3].definitionId" value="1516" id="appointment_newAppointmentForm_fields_3__definitionId" type="hidden">
-		<input name="fields[3].index" value="3" id="appointment_newAppointmentForm_fields_3__index" type="hidden">
-	
-	
-	
-	
 
 <div>
-<img src="3_files/captcha.jpg"> 
+<img src="extern/captcha.jpg?locationCode=dusc&categoryId=620" />
 <div class="input submit left">
-<input id="appointment_newAppointmentForm_form_newappointment_refreshcaptcha" name="action:appointment_refreshCaptcha" value="Neues Bild laden" type="submit">
+<input type="submit" id="appointment_captcha_day_refreshcaptcha" name="action:appointment_refreshCaptchaday" value="Load another picture"/>
 
 </div>
 </div>
-<div id="wwgrp_appointment_newAppointmentForm_captchaText" class="input text s">
-<div id="wwlbl_appointment_newAppointmentForm_captchaText" class="wwlbl">
-<label for="appointment_newAppointmentForm_captchaText" class="label">        Bitte geben Sie hier den Text ein, den Sie im Bild über diesem Feld sehen:
+<div id="wwgrp_appointment_captcha_day_captchaText" class="input text s">
+<div id="wwlbl_appointment_captcha_day_captchaText" class="wwlbl">
+<label for="appointment_captcha_day_captchaText" class="label">        Please enter here the text you see in the picture above:
 </label></div> 
-<div id="wwctrl_appointment_newAppointmentForm_captchaText">
-<input name="captchaText" id="appointment_newAppointmentForm_captchaText" class="input text s" onkeypress="checkKey(event)" type="text"></div> </div>
+<div id="wwctrl_appointment_captcha_day_captchaText" >
+<input type="text" name="captchaText" value="" id="appointment_captcha_day_captchaText" class="input text s" onkeypress="checkKey(event)"/></div> </div>
 
-<input name="locationCode" value="dusc" id="appointment_newAppointmentForm_locationCode" type="hidden">
-<input name="realmId" value="376" id="appointment_newAppointmentForm_realmId" type="hidden">
-<input name="categoryId" value="620" id="appointment_newAppointmentForm_categoryId" type="hidden">
-<input name="openingPeriodId" value="14528" id="appointment_newAppointmentForm_openingPeriodId" type="hidden">
-<input name="date" value="06.09.2016" id="appointment_newAppointmentForm_date" type="hidden">
-<input name="dateStr" value="06.09.2016" id="appointment_newAppointmentForm_dateStr" type="hidden">
+<input type="hidden" name="rebooking" value="" id="appointment_captcha_day_rebooking"/>
+<input type="hidden" name="token" value="" id="appointment_captcha_day_token"/>
+<input type="hidden" name="lastname" value="" id="appointment_captcha_day_lastname"/>
+<input type="hidden" name="firstname" value="" id="appointment_captcha_day_firstname"/>
+<input type="hidden" name="email" value="" id="appointment_captcha_day_email"/>
+<input type="hidden" name="locationCode" value="dusc" id="appointment_captcha_day_locationCode"/>
+<input type="hidden" name="realmId" value="376" id="appointment_captcha_day_realmId"/>
+<input type="hidden" name="categoryId" value="620" id="appointment_captcha_day_categoryId"/>
+<input type="hidden" name="openingPeriodId" value="14528" id="appointment_captcha_day_openingPeriodId"/>
+<input type="hidden" name="date" value="06.09.2016" id="appointment_captcha_day_date"/>
+<input type="hidden" name="dateStr" value="06.09.2016" id="appointment_captcha_day_dateStr"/>
 
-	
-	
-	
-	
+    
+    
+    
+    
     <script type="text/javascript">
-    function checkKey(event){   
-        if(event.keyCode == 13){
-            document.appointment_newAppointmentForm.action="extern/appointment_addAppointment.do";
-            document.appointment_newAppointmentForm.submit();
-        }
-    }
+            function checkKey(event){                   
+                if(event.keyCode == 13){
+                    document.appointment_captcha_day.action="extern/appointment_showDay.do";
+                    document.appointment_captcha_day.submit();
+                }
+            }
       </script>
 <div class="input submit left">
-	<input id="appointment_newAppointmentForm_appointment_addAppointment" name="action:appointment_addAppointment" value="Speichern" type="submit">
-<input id="appointment_newAppointmentForm_appointment_cancelAddAppointment" name="action:appointment_cancelAddAppointment" value="Abbrechen" type="submit">
+	<input type="submit" id="appointment_captcha_day_appointment_showDay" name="action:appointment_showDay" value="Continue"/>
+<input type="submit" id="appointment_captcha_day_choose_category" name="action:choose_category" value="Cancel"/>
 </div>      
 
 
@@ -236,7 +117,6 @@ Visa
 
 
 
-</fieldset>
 
 
 
@@ -281,6 +161,23 @@ function innerStartCommitRequest() {
 
 
 
+<div id="commit-request" title="In Bearbeitung ... ">
+	<p>
+		<span class="ui-icon ui-icon-alert"
+			style="float: left; margin: 0 7px 20px 0; margin-bottom: 100px"></span>
+		<span id="question">
+			<b>this may take a few moments ...</b><br />Your request is being processed ... please wait ... refreshing this page will delay your booking.
+		</span>
+		
+	</p>
+	<div id="commit-request-progressbar" style="background: #7192b6;">
+	
+		<div style="background: rgba(0,0,0,0) url('images/indet.gif'); opacity:0.25; height:2em;">
+			&nbsp;
+		</div>
+	
+	</div>
+</div>
 
 			</div>
 			
@@ -306,20 +203,5 @@ function innerStartCommitRequest() {
 </div>
 	</div>
 </div>
-
-<div aria-labelledby="ui-dialog-title-commit-request" role="dialog" tabindex="-1" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" style="display: none; z-index: 1000; outline: 0px none;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-dialog-title-commit-request" class="ui-dialog-title">In Bearbeitung ... </span><a role="button" class="ui-dialog-titlebar-close ui-corner-all" href="#"><span class="ui-icon ui-icon-closethick">close</span></a></div><div class="ui-dialog-content ui-widget-content" id="commit-request">
-	<p>
-		<span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0; margin-bottom: 100px"></span>
-		<span id="question">
-			<b>bitte haben Sie etwas Geduld ...</b><br>Ihre Anfrage wird bearbeitet. Bitte warten Sie auf eine Antwort. Das Neuladen der Seite verzögert die Bearbeitung.
-		</span>
-		
-	</p>
-	<div aria-valuenow="0" aria-valuemax="100" aria-valuemin="0" role="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" id="commit-request-progressbar" style="background: #7192b6;">
-	
-		<div style="background: rgba(0,0,0,0) url('images/indet.gif'); opacity:0.25; height:2em;">
-			&nbsp;
-		</div>
-	
-	<div style="display: none; width: 0%;" class="ui-progressbar-value ui-widget-header ui-corner-left"></div></div>
-</div></div></body></html>
+</body>
+</html>
