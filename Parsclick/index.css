@@ -1,1 +1,3 @@
-div { direction:rtl;}
+html { direction: rtl;
+background-image: url("images/background-image-html.jpg");color : white;}
+section{background-color: gray;}

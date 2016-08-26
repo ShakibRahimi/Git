@@ -1,3 +1,8 @@
 p:nth-child(even)
-{background: black; color: white;
+{
+  background: black; color: white;
+}
+p:nth-child(odd)
+{
+  background: yellow; color: black;
 }
