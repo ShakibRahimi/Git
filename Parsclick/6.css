@@ -1,2 +1,3 @@
-﻿body {
+p:nth-child(even)
+{background: black; color: white;
 }
