@@ -1,4 +1,4 @@
 html { direction: rtl;
 background-image: url("images/5.jpg");color: white;}
 section{background-color: gray; opacity: 0.9; }
-a.cslink{color: yellow;}
+a {color: yellow;}
