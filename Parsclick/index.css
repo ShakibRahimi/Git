@@ -1,6 +1,6 @@
 html { direction: rtl;
 background-image: url("images/9.jpg");color: white;}
-section{background-color: gray; opacity: 0.9; }
+article{background-color: gray; opacity: 0.9; }
 a.cslink{color: yellow;}
 @font-face {
     font-family: myTitr;
