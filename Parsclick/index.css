@@ -12,5 +12,7 @@ a.cslink{color: yellow;}
 }
 
 
-header {    font-family: myTitr;}
+header {    font-family: myTitr;
+           font-size:30px;
+}
 article{       font-family:myMatn;}
