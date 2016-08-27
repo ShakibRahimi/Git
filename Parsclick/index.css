@@ -2,3 +2,10 @@ html { direction: rtl;
 background-image: url("images/9.jpg");color: white;}
 section{background-color: gray; opacity: 0.9; }
 a.cslink{color: yellow;}
+/*@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/A.Sogand.ttf);
+}*/
+
+header {    font-family: 'Entezar     <--------- Poster Font';}
+article{       font-family:'A  Mitra_1 (MRT)';}
