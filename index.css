@@ -1,16 +1,1 @@
-html { direction: rtl;
-background-image: url("Parsclick/images/9.jpg");color: white;}
-article{background-color: gray; opacity: 0.9; }
-a{color: yellow;}
-@font-face {
-    font-family: myTitr;
-    src: url(Parsclick/fonts/1.ttf);
-}
-@font-face {
-    font-family: myMatn;
-    src: url(Parsclick/fonts/2.ttf);
-}
 
-
-header {    font-family: myTitr;}
-article{       font-family:myMatn;}
