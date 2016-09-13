@@ -1,0 +1,14 @@
+﻿/*div > p {color: red;}*/
+/*p.Amir + p {color: red;}*/
+
+.dakheli { background:rgba(0, 143, 179,0.5);
+           padding:20px;    
+           /*margin:-10px;*/       
+}
+body{ background:#999966;}
+
+a ~ p{color: yellow;}
+
+/*a + p {
+    color:red;
+}*/

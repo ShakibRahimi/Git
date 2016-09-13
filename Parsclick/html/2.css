@@ -1,0 +1,9 @@
+#id1{color: blue;}
+#id2{color: red;}
+.vorname{color: green;}
+/*p.vorname{color: green;}*/
+p[tel]{color: brown;}
+p[tel = "021"]{color: gray;}
+p[size^="bozorg"]{color: blue;}
+p[size$="bozorg"]{color: aqua;}
+p[size*="koochik"]{color: orange;}
