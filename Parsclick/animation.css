@@ -1,4 +1,9 @@
-﻿
+﻿body{
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+}
+
 [laye *="roo"] 
 {
     background-color: black;
