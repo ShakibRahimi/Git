@@ -1,6 +1,9 @@
 ﻿html { direction: rtl;
 background-image: url("images/9.jpg");color: white;}
-article{background-color: gray; opacity: 0.9; }
+article{background-color:rgba(128, 128, 128,0.8);
+              
+}
+
 a{color: yellow;}
 @font-face {
     font-family: myTitr;

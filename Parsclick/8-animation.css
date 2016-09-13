@@ -1,0 +1,26 @@
+.rec
+{
+    
+
+    transform:translate(-50%,-50%) ;/*
+    -moz-transform:translate(-50%,-50%) scale(2);
+    -webkit-transform:translate(-50%,-50%) scale(2);
+    -o-transform:translate(-50%,-50%) scale(2);*/
+    width:200px;
+    height:200px;
+    background-color:gray;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transition:all .5s; 
+}
+
+.rec:hover{ 
+    transform:translate(-50%,-50%) rotate(60deg);
+}
+
+body 
+{
+    padding:0px;
+    margin:0px;
+}
