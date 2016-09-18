@@ -16,5 +16,52 @@ body{
 }
 #div_tag{
     border: 1px solid black;
-    margin: 50px;
+    margin: 20px;
+}
+#top_header {
+    background: #161430;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+}
+#top_menu{
+    background: #1d2658;
+    color: #d7d2d2;
+}
+#nav-list li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    font: bold 14px Tahoma;
+}
+#main_section{
+    float: left;
+    margin: 20px;
+    width: 60%;
+    padding: 0px;
+    text-align: left;
+}
+article footer{
+    text-align:right;
+    font-style: italic;
+    font-weight:bold;
+}
+#side_news{
+    float: right;
+    width: 20%;
+    margin: 20px 0px;
+    padding: 30px;
+    background: #26e9dd;
+}
+#the_footer{
+    clear: both;
+    text-align:center;
+    padding: 20px;
+    border-top: 1px solid #161430;
+}
+article{
+    background: #fffbcc;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 15px;
 }
