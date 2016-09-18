@@ -16,7 +16,6 @@
     transition: all 1.5s;
     width:50%;
     height:1000px;
-    background-color:black;
     position:absolute;
 }
 .rast
@@ -36,4 +35,8 @@
 {
     transform:translate(-100%);
 
+}
+[shomare="chap"], [shomare = "rast"] 
+{
+    width:50%;
 }
