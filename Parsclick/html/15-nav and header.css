@@ -1,19 +1,93 @@
-﻿*{
-    padding:0;
-    margin:0px;
+﻿* {
+    padding: 0;
+    margin: 0px;
 }
-h1{
+
+h1 {
     font: bold 20px Tahoma;
 }
-h2{
+
+h2 {
     font: bold 14px Tahoma;
 }
-header, section, footer, aside, article, hgroup{
-    /*display: block;*/
+
+header, section, footer, aside, article, hgroup {
+    display: block;
 }
-body{
-    width:100%;
-    display: -webkit-box;           /*in do khat baraye ine ke be soorate block kole ajzaye site ra dar biavarim va an ra dar vasat gharar dahim*/
-    -webkit-box-pack:center;
-    border:1px solid black;
-}        
+
+body {
+    width: 100%;
+    display: -webkit-box; /*in do khat baraye ine ke be soorate block kole ajzaye site ra dar biavarim va an ra dar vasat gharar dahim*/
+    -webkit-box-pack: center; /*bara ye in ke automatic vasat gharar bede ba taghyirate abade safe*/
+}
+#big_wrapper{
+    max-width: 1000px;                  /* bishtarin arz*/
+    min-width:500px;
+    margin: 20px 0px;                   /*hashie*/
+    display: -webkit-box;               /*hameye element hara be soorate box dar nazar migirad*/
+    -webkit-box-orient:vertical;        /*moshakhas konandeye tarigheye chineshe bache haye in tag ast*/
+    -webkit-box-flex: 1;                /*baes mishavad ke monatef bashad*/
+}
+
+#top_header{
+    background: #010726;
+    border: 3px solid black;
+    color:white;
+    padding: 20px;
+    text-align:center;
+}
+#top_menu{
+    border: red;
+    background: blue;
+    color: white;
+    text-align:center;
+}
+#top_menu li{
+    display: inline-block;      /*too ye khat gharar mide*/
+    list-style: none;           /*dayere haye kenare listo bar midare*/
+    padding: 0px 5%;
+    font: bold 14px Tahoma;
+    
+}
+#main_section{
+    display:-webkit-box;
+    -webkit-box-flex:1;
+    -webkit-box-orient:vertical;
+    width: 60%;
+}
+#main_section article{
+    margin: 20px;
+    padding:15px;
+    background-color: #e4f1b1;
+    border-radius: 10px;
+    width:100%-100px;
+    text-align:left;
+}
+#main_section h1{
+    margin-bottom:10px;
+}
+#main_section footer{
+    text-align:right;
+    font-style:italic;
+    font-weight: bold;
+    margin-top:10px;
+}
+aside{
+    border: 1px solid black;
+    width: 220px;
+    margin-top:20px;
+    padding: 30px;
+    background: #66cccc;
+    -webkit-box-flex:1;
+}
+#the_footer{
+    text-align:center;
+    padding:20px;
+    border-top: 2px solid green;
+}
+#new_div
+{
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    padding-bottom: 20px;
+}
