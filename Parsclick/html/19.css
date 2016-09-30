@@ -1,0 +1,35 @@
+﻿#mommy{
+    border: 2px solid blue;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+ /*   -webkit-box-direction: reverse; /*mitavan ba in tartibe element hara barax kard*/
+    -webkit-box-pack:center;
+    -webkit-box-flex:1; /*baes mishe ke size khod ra ba andazeye browser set kone*/
+    height: 200px;
+    -webkit-box-align:stretch;
+}
+#kid1, #kid2, #kid3, #kid4{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+}
+#kid1{
+    background: green;
+    -webkit-box-ordinal-group:2;        /*mitavan jahaye anha ra avaz kard*/
+    -webkit-box-flex:2;                 /*age bishtar az yek dad ba oon nesbat taghsim mishe andaze ha*/
+}
+#kid2{
+    background: yellow;
+    -webkit-box-ordinal-group:1;
+    -webkit-box-flex:1;
+}
+#kid3{
+    background: red;
+    -webkit-box-ordinal-group:2;
+    -webkit-box-flex:1;
+}
+#kid4{
+    background: orange;
+    -webkit-box-ordinal-group:4;
+    -webkit-box-flex:1;
+}

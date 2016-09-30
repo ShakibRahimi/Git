@@ -54,6 +54,8 @@ body {
     -webkit-box-flex:1;
     -webkit-box-orient:vertical;
     width: 60%;
+    border: 1px solid black;
+    margin: 20px;
 }
 #main_section article{
     margin: 20px;

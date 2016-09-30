@@ -1,0 +1,30 @@
+﻿#mommy{
+    border: 2px solid blue;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+ /*   -webkit-box-direction: reverse; /*mitavan ba in tartibe element hara barax kard*/
+    width: 550px;
+    -webkit-box-pack:center;
+}
+#kid1, #kid2, #kid3, #kid4{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    width: 60px;
+}
+#kid1{
+    background: green;
+    -webkit-box-ordinal-group:2;        /*mitavan jahaye anha ra avaz kard*/
+}
+#kid2{
+    background: yellow;
+    -webkit-box-ordinal-group:1;
+}
+#kid3{
+    background: red;
+    -webkit-box-ordinal-group:2;
+}
+#kid4{
+    background: orange;
+    -webkit-box-ordinal-group:4;
+}
