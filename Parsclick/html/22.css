@@ -14,15 +14,15 @@
 }
 #box{
     
-    -webkit-transform: rotate(45deg);   /*charkhesh*/
+    -webkit-transform: rotate(45deg) translate(0px,100px);   /*charkhesh*/
 }
 #box2{
     transform: scale(-2,1);             /*meghyas*/
 }
 #box3{ 
-    transform: skew(30deg);             /*keshide ba zaviye*/
+    transform: skew(30deg);             /*keshide ba zaviye, enheraf*/
 }
 #box4
 {
-    transform: translate()
+    transform: translate(0px, 100px); /*jabe jayi*/
 }
