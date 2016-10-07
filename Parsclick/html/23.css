@@ -7,13 +7,18 @@
     margin: 50px auto;
     padding: 15px;
     text-align: center;
-    border: 7px solid blue;
+    border: 7px solid blAck;
     background: yellow;
-    transition: transform 1s;
+    transition: all .5s;   /*animation*/
+    /*transition: transform 0.5s;*/
 }
 #text{
  font: bold 30px Century Gothic;   
 }
-.box:hover{
-    transform: scale(1.2);
+.box:hover{             /*baraye vaghti ke rooye an mous miravad*/
+    transform: scale(1.2);      /*ja be jayi*/
+    -webkit-transform: scale(1.2);      /*ja be jayi*/
+    -moz-transform: transform: scale(1.2);      /*ja be jayi*/
+    -o-transform:   transform: scale(1.2);      /*ja be jayi*/
+    background: orange;
 }
