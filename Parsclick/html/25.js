@@ -1,6 +1,6 @@
 function getStuff()
 {
-    document.querySelector('#tuba').onclick = talk;
+    document.querySelector('#tuna').onclick = talk;
 }
 function talk()
 {
