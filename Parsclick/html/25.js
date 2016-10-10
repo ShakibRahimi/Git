@@ -1,6 +1,6 @@
 function getStuff()
 {
-    document.querySelector('#tuna').onclick = talk;
+    document.querySelector('#tuna').onclick = talk; // ba in mishe select kard ba id ya class
 }
 function talk()
 {
