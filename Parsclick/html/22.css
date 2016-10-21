@@ -1,0 +1,28 @@
+﻿#box,#box2,#box3,#box4{
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 7px solid blue;
+    background: yellow;
+    outline: 7px solid red; /*in bara ye */
+
+}
+.text{
+    font: bold 30px Century Gothic;
+}
+#box{
+    
+    -webkit-transform: rotate(45deg) translate(0px,100px);   /*charkhesh*/
+}
+#box2{
+    transform: scale(-2,1);             /*meghyas*/
+}
+#box3{ 
+    transform: skew(30deg);             /*keshide ba zaviye, enheraf*/
+}
+#box4
+{
+    transform: translate(0px, 100px); /*jabe jayi*/
+}

@@ -1,0 +1,42 @@
+﻿body{
+    background: #f6ffbc;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-flex: 1;
+    -webkit-box-orient: vertical;
+    border: 1px solid black;
+}
+#box1{
+    width: 500px;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid black; 
+    /*background: -webkit-linear-gradient(top, black, white);*/ /*baraye tolide range */
+    background: -webkit-linear-gradient(top, black, white); /*baraye tolide range */
+    -webkit-border-radius: 25px; /*gerd kardane gooshe ha*/
+    -webkit-box-shadow: rgb(110,110,110) 8px 8px 8px;   /*baraye saye dadan 8px samte rast 8px payin 8px mat mikone*/
+}
+#box2{
+    width: 500px;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid black; 
+    /*background: -webkit-linear-gradient(top, black, white);*/ /*baraye tolide range */
+    background: -webkit-linear-gradient(45deg, red, green); /*baraye tolide range */
+   
+     -webkit-border-radius: 25px; /*gerd kardane gooshe ha*/
+    -webkit-box-shadow: rgba(110,110,110,0.5) 8px 8px 8px;   /*baraye saye dadan 8px samte rast 8px payin 8px mat mikone*/
+}
+#box3{
+    width: 500px;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid black; 
+    background: -webkit-radial-gradient(center, circle, red 25%, black 75%);
+    -webkit-border-radius: 25px; /*gerd kardane gooshe ha*/
+    -webkit-box-shadow: rgb(110,110,110) 8px 8px 8px;   /*baraye saye dadan 8px samte rast 8px payin 8px mat mikone*/
+}
+#text {
+    font: bold 30px Century Gothic;
+    text-shadow: rgb(110,110,110) 3px 3px 7px;
+}

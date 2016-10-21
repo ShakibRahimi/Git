@@ -1,0 +1,26 @@
+﻿#box{
+    display:block;
+    width: 500px;
+    margin: 50px;
+    padding 15px;
+    text-align: center;
+    border: 1px solid blue;
+    background: orange;     
+    -webkit-border-radius: 25px; /*gerd kardane gooshe ha*/
+    -webkit-box-shadow: rgb(110,110,110) 8px 8px 8px;   /*baraye saye dadan 8px samte rast 8px payin 8px mat mikone*/
+}
+#text{
+    font: bold 30px Century Gothic;
+}
+#butt{
+    display:block;
+    width: 500px;
+    margin: 50px;
+    padding 15px;
+    text-align: center;
+    border: 1px solid blue;
+    background: orange;     
+    -webkit-border-radius: 25px; /*gerd kardane gooshe ha*/
+    -webkit-box-shadow: rgb(110,110,110) -8px -8px 8px inset;   /*baraye saye dadan 8px samte rast 8px payin 8px mat mikone*/
+    /*!important: yani in dastoor ro aval anjam bede*/
+}

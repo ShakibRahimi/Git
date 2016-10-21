@@ -1,0 +1,26 @@
+table
+{
+    text-align: center;
+    border: 1px solid;
+}
+#tr1
+{
+    background-color: red;
+}
+#tr2
+{
+    background-color: green;
+}
+#item1
+{
+    width: 100px;
+}
+#item2
+{
+    width: 200px;
+}
+#tdcol
+{
+    background-color: blue;
+    color: white;
+}
