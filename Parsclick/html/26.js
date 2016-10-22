@@ -12,3 +12,4 @@ function talk() {
     alert("Salam");
 }
 window.onload = getStuff;
+

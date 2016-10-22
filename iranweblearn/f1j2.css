@@ -1,0 +1,53 @@
+﻿*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    backgrougnd-color:lawngreen;
+    background-image: url("../images/12.jpg");
+    font: bold Tahoma;
+    color: white;
+}
+.ctrText
+{
+    margin-top: 40px;
+}
+
+.ctrText article
+{
+    padding: 10px;
+    text-align: left;
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 70%;
+    background-color: rgba(0,0,0, 0.3);
+}
+.top
+{
+    
+    margin: auto;
+    text-align: center;
+    height: 10%;
+    padding: 20px;
+    background-color: rgba(0,0,0, 0.8)
+}
+ul
+{
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    list-style: none;
+    background-color: rgba(0,0,0, 0.65);
+}
+.contents li
+{
+    padding:  10px 20px;
+}
+h3
+{
+    color: white;
+    text-align: left;
+    padding-bottom: 5px;
+}
