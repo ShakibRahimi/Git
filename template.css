@@ -1,10 +1,20 @@
-﻿html { direction: rtl;
-background-image: url("images/12.jpg");color: white;}
-article{background-color:rgba(128, 128, 128,0.8);
-              
+﻿
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
-a{color: yellow;}
+html{
+    background-image: url("images/27.jpg");color: white;
+    margin: auto;
+}
+article{
+    background-color:rgba(128, 128, 128,0.8);          
+}
+
+a{
+    color: yellow;
+}
 @font-face {
     font-family: myTitr;
     src: url(fonts/1.ttf);
@@ -14,6 +24,33 @@ a{color: yellow;}
     src: url(fonts/2.ttf);
 }
 
+header {
+        font-family: myTitr;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+}
+article{
+           font-family:myMatn;
+           margin: auto;
+           margin-top: 7%;
+           background-color: rgba(0, 0, 0, 0.4);
+           padding: 20px;
+           width: 400px;
+           position: relative;
+        
 
-header {    font-family: myTitr;}
-article{       font-family:myMatn;}
+}
+nav ul
+{
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    list-style: none;
+    background-color: rgba(0,0,0, 0.6);
+}
+nav ul li
+{
+    padding:  10px 20px;
+}
