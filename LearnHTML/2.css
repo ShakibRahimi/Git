@@ -22,3 +22,27 @@ h1{
     font: bold 25px Tahoma;
     color:white;
 }
+nav{
+    background-color: white;
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(63.8%, 34.3%, 100%,0.1);
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+nav li{
+    display: inline;
+    margin: 20px;
+}
+h3{
+    display: inline;
+
+}
