@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+}
+header
+{
+    background-color: rgba(63.8%, 34.3%, 100%,0.1);
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 2%;
+    border-radius: 15px;
+    border: 2px solid white;
+    
+}
+h1{
+    font: bold 25px Tahoma;
+    color:white;
+}
