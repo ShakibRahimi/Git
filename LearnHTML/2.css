@@ -1,29 +1,29 @@
 *{
     padding: 0;
     margin: 0;
+    font: Tahoma;
 }
 body{
-    background: black;
+    background: white;
 }
-header
+body>header
 {
-    background-color: rgba(63.8%, 34.3%, 100%,0.1);
-    color: white;
+    background-color: rgb(62.8%, 65.2%, 17.5%);
     text-align: center;
     width: 90%;
     margin: auto;
     padding: 20px;
-    margin-top: 2%;
+    margin-top: 10px;
     border-radius: 15px;
     border: 2px solid white;
     
 }
 h1{
     font: bold 25px Tahoma;
-    color:white;
+    color:black;
 }
 nav{
-    background-color: white;
+    background-color:  rgb(62.8%, 65.2%, 17.5%);
     width: 90%;
     height: 10%;
     margin: auto;
@@ -31,18 +31,53 @@ nav{
     border: 2px solid white;
     border-radius: 15px;
     padding: 20px;
-    background-color: rgba(63.8%, 34.3%, 100%,0.1);
 }
 nav ul{
     list-style: none;
     text-align: center;
-    color: white;
+    color: black;
 }
 nav li{
     display: inline;
     margin: 20px;
 }
-h3{
+h4{
     display: inline;
+    font: bold 17px Tahoma;
+}
+article{
+    width: 90%;
+    background-color:  rgb(62.8%, 65.2%, 17.5%);
+    color: white;
+    border-radius: 15px;
+    border: 2px solid white;
+    border-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+section{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px -10px;
+    background-color: lightgoldenrodyellow;
+    color: olive;
+    border: 2px solid white;
+    font: normal 12px Tahoma;
+}
+section > header{
+    color: black;
+}
+h3{
+    font: bold 14px Tahoma;
+    margin-bottom: 5px;
+}
+section>footer
+{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
 
 }
