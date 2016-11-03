@@ -1,0 +1,22 @@
+<html>
+    <head></head>
+    <body>
+        <canvas id="canvas1" width="800" height="800">
+        </canvas> 
+    <script>
+        var c=document.getElementById("canvas1");
+        var ctx=c.getContext("2d");
+
+        ctx.fillStyle ="rgba(0, 255, 255, 1)";
+        
+        for(i=0; i<=15; i++)
+        {
+            ctx.fillRect(15*i,15,i,100);
+        }
+        for(i=15; i>0; i--)
+        {
+            ctx.fillRect(15*(15-i)+150,15,i,100);
+        }
+    </script>
+    </body>
+</html>

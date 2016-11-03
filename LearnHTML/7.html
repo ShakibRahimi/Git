@@ -1,0 +1,24 @@
+<html>
+    <head></head>
+    <body>
+        <canvas id="canvas1" width="800" height="800">
+        </canvas> 
+    <script>
+        var c=document.getElementById("canvas1");
+        var ctx=c.getContext("2d");
+        ctx.beginPath();
+        var step = 8;
+        for(i=0;i<400;i+=step)
+        {
+            ctx.moveTo(200,0);
+            ctx.lineTo(i,150);
+        }
+        for(i=0;i<400;i+=step)
+        {
+            ctx.moveTo(200,300);
+            ctx.lineTo(i,150);
+        }
+        ctx.stroke();
+    </script>
+    </body>
+</html>
