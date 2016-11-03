@@ -1,12 +1,74 @@
-<!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href=""/>
-        <script src=""/>
-        <title></title>
-    </head>
+<html>
+    <head></head>
     <body>
+        <canvas id="canvas1" width="1200" height="1200">
+        </canvas> 
+    <script>
+        var c=document.getElementById("canvas1");
+        var ctx=c.getContext("2d");
+        ctx.translate(250,200);
 
+        var num = 10;
+
+        for(i=0;i<num;i++)
+        {
+
+            var color = Math.round(255/num*i);
+
+            ctx.fillStyle="black";      
+            ctx.font="20px Georgia";
+
+            ctx.fillText(color,180,0);
+
+            ctx.rotate(Math.PI/(num));  
+            ctx.fillStyle ="rgb(0,0,"+color+")";
+            ctx.fillRect(-100,-100, 250, 100);
+        }
+        ctx.translate(0,-500);       
+        for(i=0;i<num;i++)
+        {
+
+            var color = Math.round(255/num*i);
+
+            ctx.fillStyle="black";      
+            ctx.font="20px Georgia";
+
+            ctx.fillText(color,180,0);
+
+            ctx.rotate(Math.PI/(num));  
+            ctx.fillStyle ="rgb(0,"+color+",0)";
+            ctx.fillRect(-100,-100, 250, 100);
+        }
+                ctx.translate(500,-500);       
+        for(i=0;i<num;i++)
+        {
+
+            var color = Math.round(255/num*i);
+
+            ctx.fillStyle="black";      
+            ctx.font="20px Georgia";
+
+            ctx.fillText(color,180,0);
+
+            ctx.rotate(Math.PI/(num));  
+            ctx.fillStyle ="rgb("+color+",0,0)";
+            ctx.fillRect(-100,-100, 250, 100);
+        }
+        ctx.translate(0,-500);       
+        for(i=0;i<num;i++)
+        {
+
+            var color = Math.round(255/num*i);
+
+            ctx.fillStyle="black";      
+            ctx.font="20px Georgia";
+
+            ctx.fillText(color,180,0);
+
+            ctx.rotate(Math.PI/(num));  
+            ctx.fillStyle ="rgb("+color+","+color+","+color+")";
+            ctx.fillRect(-100,-100, 250, 100);
+        }
+    </script>
     </body>
 </html>
