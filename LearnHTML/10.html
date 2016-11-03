@@ -7,6 +7,111 @@
         <title></title>
     </head>
     <body>
+        <canvas id="canvas1" width="800" height="800">
+        </canvas> 
+        <script>
+            var c=document.getElementById("canvas1");
+            var ctx=c.getContext("2d");
 
+            var num = 20;
+            var d0 = 200, d1  = 160, d2 = 100, w1 = 8;
+
+            ctx.beginPath();
+            ctx.arc(200,200, d0,0, Math.PI*2);
+            ctx.fillStyle="black";
+            ctx.fill();
+            ctx.stroke();
+        
+            ctx.beginPath();
+            ctx.arc(200,200, d1,0, Math.PI*2);
+            ctx.fillStyle="white";
+            ctx.fill();
+            ctx.stroke();
+
+
+            for(i=0;i<num;i++)
+            {
+                ctx.beginPath();
+                ctx.moveTo(200,200);
+                ctx.lineTo(200+Math.cos(i*Math.PI*2/num+(Math.PI/num))*d1,200+Math.sin(i*Math.PI*2/num+(Math.PI/num))*d1);
+                ctx.arc(200,200,d1,i*Math.PI*2/num+(Math.PI/num),i*Math.PI*2/num+(Math.PI/num)+Math.PI*2/num); 
+                ctx.lineTo(200,200);
+                ctx.closePath();
+                ctx.stroke();    
+                if(i%2==0)
+                {
+                    ctx.fillStyle="black";
+                    ctx.fill();
+                }
+            }
+
+            for(i=0;i<num;i++)
+            {
+                ctx.beginPath();
+                ctx.moveTo(200+Math.cos(i*Math.PI*2/num+(Math.PI/num))*(d2-w1),200+Math.sin(i*Math.PI*2/num+(Math.PI/num))*(d2-w1));
+                ctx.lineTo(200+Math.cos(i*Math.PI*2/num+(Math.PI/num))*d2,200+Math.sin(i*Math.PI*2/num+(Math.PI/num))*d2);
+                ctx.arc(200,200,d2,i*Math.PI*2/num+(Math.PI/num),i*Math.PI*2/num+(Math.PI/num)+Math.PI*2/num); 
+                ctx.lineTo(200+Math.cos((i+1)*Math.PI*2/num+(Math.PI/num))*(d2-w1),200+Math.sin((i+1)*Math.PI*2/num+(Math.PI/num))*(d2-w1));
+                ctx.arc(200,200,d2-w1,i*Math.PI*2/num+(Math.PI/num)+Math.PI*2/num,i*Math.PI*2/num+(Math.PI/num),true);                 
+                ctx.lineTo(200+Math.cos(i*Math.PI*2/num+(Math.PI/num))*d2,200+Math.sin(i*Math.PI*2/num+(Math.PI/num))*d2);
+                ctx.closePath();
+                ctx.stroke();    
+                if(i%2==0)
+                {
+                    ctx.fillStyle="red";
+                    ctx.fill();
+                }
+                else
+                {
+                    ctx.fillStyle="green";
+                    ctx.fill();
+                }
+            }
+
+            for(i=0;i<num;i++)
+            {
+                ctx.beginPath();
+                ctx.moveTo(200+Math.cos(i*Math.PI*2/num+(Math.PI/num))*(d1-w1),200+Math.sin(i*Math.PI*2/num+(Math.PI/num))*(d1-w1));
+                ctx.lineTo(200+Math.cos(i*Math.PI*2/num+(Math.PI/num))*d1,200+Math.sin(i*Math.PI*2/num+(Math.PI/num))*d1);
+                ctx.arc(200,200,d1,i*Math.PI*2/num+(Math.PI/num),i*Math.PI*2/num+(Math.PI/num)+Math.PI*2/num); 
+                ctx.lineTo(200+Math.cos((i+1)*Math.PI*2/num+(Math.PI/num))*(d1-w1),200+Math.sin((i+1)*Math.PI*2/num+(Math.PI/num))*(d1-w1));
+                ctx.arc(200,200,d1-w1,i*Math.PI*2/num+(Math.PI/num)+Math.PI*2/num,i*Math.PI*2/num+(Math.PI/num),true);                 
+                ctx.lineTo(200+Math.cos(i*Math.PI*2/num+(Math.PI/num))*d1,200+Math.sin(i*Math.PI*2/num+(Math.PI/num))*d1);
+                ctx.closePath();
+                ctx.stroke();    
+                if(i%2==0)
+                {
+                    ctx.fillStyle="red";
+                    ctx.fill();
+                }
+                else
+                {
+                    ctx.fillStyle="green";
+                    ctx.fill();
+                }
+            }
+
+            ctx.beginPath();
+            ctx.arc(200,200, 20,0, Math.PI*2);
+            ctx.fillStyle="green";
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.arc(200,200, 10,0, Math.PI*2);
+            ctx.fillStyle="red";
+            ctx.fill();
+            ctx.stroke();
+            
+            var points = [6, 10, 15, 2, 17, 3, 19, 7, 16, 8, 11, 14, 9, 12, 5, 20, 1, 18, 4, 13];
+
+            ctx.font="20px Georgia";
+            ctx.fillStyle="white";      
+            for(i=0;i<20;i++)
+            {
+                ctx.fillText(points[i],190 + Math.cos(i*Math.PI*2/num)*(d1+15), 205 + Math.sin(i*Math.PI*2/num)*(d1+15));            
+              //  ctx.fillText("hi",0,i*10);
+            }
+        </script>
     </body>
 </html>
