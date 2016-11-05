@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="12.css"/>
+        <script src=""/>
+        <title></title>
+    </head>
+    <body>
+        <div id="anime">
+        <canvas id="canvas1" width="800" height="800">
+        </canvas> 
+        </div>
+        <script>
+            var c=document.getElementById("canvas1");
+            var ctx=c.getContext("2d");
+
+            var num = 10, l = 150;
+            
+            
+
+            ctx.translate(200,200);
+            var my_gradient=ctx.createLinearGradient(-10,200,10,200);
+            
+            my_gradient.addColorStop(0,"black");
+            my_gradient.addColorStop(0.2,"blue");
+            my_gradient.addColorStop(1,"black");            
+        //    my_gradient.addColorStop(1,"blue");
+            ctx.fillStyle=my_gradient;
+            ctx.fillRect(-10,0,20,400);
+            ctx.stroke();
+
+            for(i=0;i<num;i++)
+            {  
+                var color = Math.round(255/num*i);
+    //            ctx.fillStyle="black";      
+  //              ctx.font="20px Georgia";
+
+//                ctx.fillText(color,130,50);
+                ctx.beginPath();
+                ctx.moveTo(0,0);
+                ctx.lineTo(l,0);
+                ctx.lineTo(l*Math.cos(2*Math.PI/num)*Math.cos(2*Math.PI/num), l*Math.sin(2*Math.PI/num)*Math.cos(2*Math.PI/num));
+
+                ctx.closePath();
+                ctx.stroke();  
+
+                ctx.fillStyle="rgb(0,0,"+color+")";
+                ctx.fill();
+                ctx.rotate(2*Math.PI/num);
+
+            }
+            ctx.beginPath();
+            ctx.strokeStyle = "black";
+            ctx.lineWidth = 5;
+            ctx.arc(0,0,15,0, Math.PI*2);
+            ctx.stroke();   
+            ctx.fillStyle="blue";
+            ctx.fill(); 
+
+           /*  for(i=0;i<num;i++)
+            {
+                ctx.beginPath();
+                ctx.moveTo(200,200);
+                ctx.lineTo(200+Math.cos(i*Math.PI*2/num+(Math.PI/num))*d1,200+Math.sin(i*Math.PI*2/num+(Math.PI/num))*d1);
+                ctx.arc(200,200,d1,i*Math.PI*2/num+(Math.PI/num),i*Math.PI*2/num+(Math.PI/num)+Math.PI*2/num); 
+                ctx.lineTo(200,200);
+                ctx.closePath();
+                ctx.stroke();    
+                if(i%2==0)
+                {
+                    ctx.fillStyle="black";
+                    ctx.fill();
+                }
+            }*/
+
+        </script>
+    </body>
+</html>
