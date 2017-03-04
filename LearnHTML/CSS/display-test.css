@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.kamel
+{
+    display: block;   
+}
+#bala
+{
+    background: black;
+    color: white;
+    height: 50px;
+}
+.chandtayi
+{
+    background: red;
+    height: 200px;
+    display: inline-block;
+    width: 40%;
+    margin: 0px;
+}
+#payin
+{
+    background: green;
+}

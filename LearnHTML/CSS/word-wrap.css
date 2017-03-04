@@ -1,0 +1,13 @@
+.not-wraped{
+    width: 210px; 
+    height: 100px;
+    border: 1px solid #000000;
+    word-wrap: normal;
+}
+.wraped
+{
+    width: 210px; 
+    height: 100px;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}

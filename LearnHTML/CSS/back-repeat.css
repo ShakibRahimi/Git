@@ -1,0 +1,21 @@
+body{
+    background-image: url(3.jpg);
+    background-attachment: fixed;
+}
+#id1{
+    color: white;
+    background-image: url("img.jpg");
+    background-repeat: repeat-x;
+    
+    height: 50px;
+    
+}
+
+#id2{
+    color: white;
+    background-image: url("2.jpg");
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    height: 600px
+    
+}

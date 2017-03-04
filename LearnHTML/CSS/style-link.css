@@ -1,0 +1,9 @@
+a:hover {
+   color: red;
+}
+a:link {
+    color: green;
+}
+a{
+   font-family: cursive; 
+}

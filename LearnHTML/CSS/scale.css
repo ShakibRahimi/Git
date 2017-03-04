@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 200px;
+    transition: all 1s;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div:hover{
+    transform: scale(2,3);
+    color: white;
+}

@@ -1,0 +1,30 @@
+p.position_static {
+   position:static;
+   top: 10px;
+   left: 100px;
+   color: red;
+    /* kolan dar mookhtasat gheyre faal ast va be soorate shenavar dar safe ast */
+}
+p.absolut{
+    color: blue;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    /* dar in halat kolan be baghie chiz ha kari nadarad va be soorate kamelan motlagh be element position mide va mostaghel az baghie element ha amal mikonad */
+}
+p.relativ
+{
+    position: relative;
+    color: green;
+    top: 50px;
+    right: 50px;
+    /* dar in halat nesbat be noghteye gooshe bala samte chape jaye shenavare khod position mide */
+}
+p.fixed
+{
+    position: fixed;
+    color: fuchsia;
+    top: 10px;
+    right: 10px;
+    /* dar in halat mostaghel az scroll ham baz jaye elment sabet ast*/
+}

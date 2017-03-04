@@ -1,0 +1,9 @@
+p.normal{
+    letter-spacing: normal;
+}
+p.length{
+    letter-spacing: 4px;
+}
+p.negative { 
+   letter-spacing: -1.5px; 
+} 

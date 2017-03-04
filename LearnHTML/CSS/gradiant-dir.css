@@ -1,0 +1,30 @@
+ div.first {
+    float: left;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    color: #FFF;  
+    background:-webkit-linear-gradient(left, blue, green, white);
+    background:-o-linear-gradient(left, blue, green, white);
+    background:linear-gradient(to right, blue, green, white);
+
+ 
+} 
+div.second { 
+    float: left;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    background:-webkit-linear-gradient(bottom, blue, green, white);
+    background:-o-linear-gradient(bottom, blue, green, white);
+    background:linear-gradient(to top, blue, green, white);
+}
+div.third { 
+    float: left;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    background:-webkit-linear-gradient(bottom right, blue, green, white);
+    background:-o-linear-gradient(bottom right, blue, green, white);
+    background:linear-gradient(bottom right, blue, green, white);
+}

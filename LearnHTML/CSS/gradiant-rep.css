@@ -1,0 +1,12 @@
+div{
+    height: 5000px;
+    background:-webkit-repeating-linear-gradient(white, black,white,green,white 50px);
+    background:-o-repeating-linear-gradient(white, black,white,green,white 50px);
+    background:-moz-repeating-linear-gradient(white, black,white,green,white 50px); 
+    color: white;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}

@@ -1,0 +1,50 @@
+div.ch0, div.ch1{
+    height: 200px;
+    width: 120px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    animation-name: charkhesh;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-image: url(3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    animation-direction: reverse;
+}
+@keyframes charkhesh{
+    
+    from{
+        transform: rotate(360deg);}
+    to{transform: rotate(0deg);}
+}
+div.ch0{
+    left: 69px;
+    top: 91px;
+}
+div.ch1{
+    left: 356px;
+    top: 91px;
+}
+body{
+    animation-name: mashin;
+    animation-duration: 10s;
+    position: absolute;
+    transition: all 4s;
+}
+@keyframes mashin{
+    from{transform: translateX(-500px);}
+    to{}
+}
+body:hover{
+    transform: translate(1000px);
+}
+h1{
+    position: absolute;
+    top: 125px;
+    left: 200px;
+    color: white;
+}

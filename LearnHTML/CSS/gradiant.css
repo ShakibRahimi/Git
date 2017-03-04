@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+
+@font-face {
+    font-family: NewFont; 
+    src: url('font/AlexBrush-Regular.ttf');
+    src: url('font/AlexBrush-Regular.ttf?#iefix'); 
+} 
+@font-face { 
+    font-family: NewFont; 
+    font-weight: bold; 
+    src: url('font/AlexBrush-Regular.ttf'); 
+    src: url('font/AlexBrush-Regular.ttf?#iefix');
+    /* in baraye in ast ke bug ie ro bartaraf kone*/
+}
+h1.de{
+   font-family: NewFont, sans-serif; 
+    font-size: 70px;
+    background:linear-gradient(black,red,yellow);
+    text-align: center;
+    color:white;
+    border-bottom: solid 5px black;
+    
+}
+h1.ir{
+   font-family: NewFont, sans-serif; 
+    font-size: 70px;
+    background:linear-gradient(green,white,red);
+    text-align: center;
+    color:black;
+    border-top: solid 2px black;
+    
+}
+

@@ -1,0 +1,27 @@
+div.empty-div {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    margin: 30px;
+    border: 1px solid black;
+    
+
+}
+div.green-div {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 1px solid #8bc34a;
+    transform: rotate(0deg);
+    transition: all 0.5s;
+    margin: 30px;
+}
+div.green-div:hover {
+    transform: rotate(90deg);
+    transform-origin: 50% 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}

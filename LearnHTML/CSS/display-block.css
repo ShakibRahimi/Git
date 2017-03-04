@@ -1,0 +1,15 @@
+*{
+    
+}
+span{
+    border: solid ;
+    display: block;<!--har element maximum x ro eshghal mikonad-->
+}
+#s2,#s3{
+    color: white;
+    border-color: brown;
+    width: 200px;
+    background: black;
+    display: inline;
+    
+}

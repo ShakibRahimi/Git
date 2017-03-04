@@ -1,0 +1,16 @@
+@font-face {
+    font-family: NewFont; 
+    src: url('font/AlexBrush-Regular.ttf');
+    src: url('font/AlexBrush-Regular.ttf?#iefix'); 
+} 
+@font-face { 
+    font-family: NewFont; 
+    font-weight: bold; 
+    src: url('font/AlexBrush-Regular.ttf'); 
+    src: url('font/AlexBrush-Regular.ttf?#iefix');
+    /* in baraye in ast ke bug ie ro bartaraf kone*/
+}
+h1{
+   font-family: NewFont, sans-serif; 
+    font-size: 70px;
+}

@@ -1,0 +1,28 @@
+div.cir1{
+    height: 200px;
+    width: 200px;
+    background: -webkit-radial-gradient(20% 50%,circle,black 25%,red 40%,red 60%,yellow 70%);
+    float: left;
+}
+div.cir2{
+    height: 200px;
+    width: 200px;
+    background: -webkit-radial-gradient(50% 100%,circle,red 25%,white 40%,white 60%,green 70%);
+    float: left;
+}
+div.cir3{
+    height: 200px;
+    width: 400px;
+    background: -webkit-radial-gradient(center, circle,black ,white ,black ,white);
+    float: left;
+    
+    /* background: radial-gradient(position, shape or size, color-stops); */
+}
+div.cir4{
+    height: 200px;
+    width: 400px;
+    background: -webkit-radial-gradient(center,black ,white ,black ,white);
+    float: left;
+    background-position
+    /* background: radial-gradient(position, shape or size, color-stops); */
+}

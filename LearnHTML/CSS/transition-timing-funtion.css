@@ -1,0 +1,68 @@
+div.ease{
+    width: 150px;
+    height: 50px;
+    background-color: cadetblue;
+    transition: all 3s ease;
+    color: white;
+}
+div.ease:hover{
+    width: 350px;
+    background-color: black;
+}
+div.ease-in{
+    width: 150px;
+    height: 50px;
+    background-color: cadetblue;
+    transition: all 3s ease-in;
+    color: white;
+}
+div.ease-in:hover{
+    width: 350px;
+    background-color: black;
+}
+div.ease-out{
+    width: 150px;
+    height: 50px;
+    background-color: cadetblue;
+    transition: all 3s ease-out;
+    color: white;
+}
+div.ease-out:hover{
+    width: 350px;
+    background-color: black;
+}
+div.ease-in-out{
+    width: 150px;
+    height: 50px;
+    background-color: cadetblue;
+    transition: all 3s ease-in-out;
+    color: white;
+}
+div.ease-in-out:hover{
+    width: 350px;
+    background-color: black;
+}
+div.linear{
+    width: 150px;
+    height: 50px;
+    background-color: cadetblue;
+    transition: all 3s ease-in-out;
+    color: white;
+}
+div.linear:hover{
+    width: 350px;
+    background-color: black;
+}
+div.cubic-bezier{
+    width: 150px;
+    height: 50px;
+    background-color: cadetblue;
+    transition: all 3s cubic-bezier(0,0,1,1);
+    color: white;
+}
+div.cubic-bezier:hover{
+    width: 350px;
+    background-color: black;
+}
+
+

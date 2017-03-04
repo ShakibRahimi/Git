@@ -1,0 +1,25 @@
+div.div1{
+    position: relative;
+    height: 400px;
+    width: 500px;
+    background-color: black;
+    top: 50px;
+    left: 50px;
+}
+div.div2{
+    height: 200px;
+    width: 250px;
+    background-color: green;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+div.div3{
+    height: 70px;
+    width: 400px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    
+}

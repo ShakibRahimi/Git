@@ -1,0 +1,7 @@
+div{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    transform: rotate(45deg) translate(100px) ;
+    /*az rast be chap ejra mishe*/
+}

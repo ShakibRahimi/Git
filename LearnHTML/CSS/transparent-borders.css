@@ -1,0 +1,27 @@
+p{
+    word-wrap: break-word;
+    background: black;
+    color: green;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow: hidden;
+}
+div.massage{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 50px;
+    background: black;
+    border: 10px solid rgba(0,255,0,0.2);
+    background-clip: padding-box;
+    transition: all 0.5s;
+}
+div.massage:hover{
+    transform: rotate(180deg) translate(+50%,+50%);
+}

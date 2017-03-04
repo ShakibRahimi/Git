@@ -1,0 +1,18 @@
+p.normal { 
+   word-spacing: normal;
+}
+p.px { 
+   word-spacing: 30px;
+}
+p.negative { 
+   word-spacing: -5px;
+}
+*{
+    transition: all 0.5s;
+}
+#anime:hover{
+    word-spacing: 1cm;
+}
+#anime{
+    word-spacing: -20px;
+}

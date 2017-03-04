@@ -1,0 +1,42 @@
+td
+{
+    padding: 2px;
+}
+td.top {
+   vertical-align: top;
+}
+td.middle {
+   vertical-align: middle;
+}
+td.bottom {
+   vertical-align: bottom;
+}
+#box{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+.center {
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid green;
+    text-align: center;
+}
+
+.center p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+article{
+    height: 150px; width: 400px;
+    background-color: lightcoral;
+    display: inline-table;
+}
+#box2 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}

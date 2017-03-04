@@ -1,0 +1,43 @@
+div.size {
+    height: 200px;
+    width: 300px;
+    border: 1px solid #000;
+    background: url("3.jpg") no-repeat 50% 50%;
+    background-size: 100px 100px;
+
+    float: left;
+}
+div.con1{
+    height: 200px;
+    width: 500px;
+    border: 1px solid #000;
+    background: url("3.jpg") no-repeat 50% 50%;
+    background-size: contain;
+    float: left;
+}
+div.con2{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #000;
+    background: url("3.jpg") no-repeat 50% 50%;
+    background-size: contain;
+    float: left;
+}
+div.cov1{
+    height: 100px;
+    width: 300px;
+    border: 1px solid #000;
+    background: url("3.jpg");
+    background-size: cover;
+    float: left;
+    color: white;
+}
+div.cov2{
+    height: 300px;
+    width: 200px;
+    border: 1px solid #000;
+    background: url("3.jpg");
+    background-size: cover;
+    float: left;
+    color: white;
+}

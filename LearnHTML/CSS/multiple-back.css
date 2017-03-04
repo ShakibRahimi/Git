@@ -1,0 +1,8 @@
+div {
+    width: 600px;
+    height: 400px;
+    background-image: url("http://www.sololearn.com/uploads/css_logo.png"), url("http://www.sololearn.com/uploads/better-code.jpg");
+    background-position: right bottom,left top;
+    background-size: auto,cover;
+    background-repeat: no-repeat;
+} 

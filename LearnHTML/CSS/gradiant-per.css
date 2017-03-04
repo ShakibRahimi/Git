@@ -1,0 +1,17 @@
+div.c1{
+    height: 300px;
+    background:-webkit-linear-gradient(red, green, black, white, yellow);
+    background:-o-linear-gradient(red, green, black, white, yellow);
+    background:linear-gradient(green 100px, white 100px,white 200px, red 200px);
+}
+div.c2{
+    height: 300px;
+    background:-webkit-linear-gradient(black 31%, red 35%,red 61%, yellow 65%);
+    background:-o-linear-gradient(black 31%, red 35%,red 61%, yellow 65%);
+    background:linear-gradient(black 31%, red 35%,red 61%, yellow 65%);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}

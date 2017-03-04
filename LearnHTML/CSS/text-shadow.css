@@ -1,0 +1,54 @@
+h1 {
+   color: blue;
+   font-size: 30pt;
+   text-shadow: 50px -20px 4px grey, 50px 20px 4px grey;
+    text-align: center;
+}
+#box{
+    padding: 20px;
+    width: 300px;
+    margin:auto;
+    text-align: center;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 4px gray;
+    border: 2px solid;
+}
+#blur{
+    color: black;
+    font-size: 20pt;   
+    text-shadow: rgba(0,0,255,1) -1px -2px 0.5em; 
+    text-align: center;
+}
+
+.mouse{
+    padding: 20px;
+    width: 300px;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: blueviolet;
+    border: 2px solid;
+}
+.mouse:hover{
+    box-shadow: rgba(255,0,255,1) 0px 0px 20px; 
+    border-color: white;
+    background-color: gray;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: scale(1.2);
+
+}
+*{
+    transition: all .5s;
+    padding: 0;
+}
+article{
+    padding: 10%;
+    background-color: black;
+   
+    display: inline-table;
+    width: 80%;
+    
+}

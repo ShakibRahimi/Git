@@ -1,0 +1,19 @@
+*{
+    transition: all .5s, color 1s;
+    cursor:url(2.png),url(myBall.cur),auto;
+    text-align: center;
+    
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+p{
+    border: soldid 2px;
+}
+p:hover
+{
+    border: solid 10dpx ;
+    transform: translate(-0px,-0px) scale(2);
+    background: black;
+    color: white;
+}

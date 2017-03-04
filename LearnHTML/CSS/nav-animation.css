@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s;
+}
+
+body
+{
+    background-color: black;
+}
+nav{
+    background-color: rgb(73, 10, 10);
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: floralwhite;
+    font-weight: bold;
+    box-shadow: white 0px 0px 40px;
+    border-bottom: 2px solid gray;
+    margin-top: -45px;
+    
+}
+li{
+    display: inline;
+    padding: 50px;
+}
+nav:hover{
+    margin-top: 0px;
+}
+body:load{background-color: aqua;}
